@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php base_url('assests/css/style.css') ?>">
-    <link rel="stylesheet" href="<?php base_url('assests/css/responsive.css') ?>">
+    <link rel="icon" type="image/x-icon" href="<?php base_url('assests/images/favicon.png'); ?>">
+    <script src="<?php base_url('https://kit.fontawesome.com/yourcode.js'); ?>" crossorigin="anonymous"></script>
+    <link href="<?php base_url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'); ?>" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php base_url('assests/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php base_url('assests/css/responsive.css'); ?>">
 
   </head>
   <body >
@@ -17,7 +17,7 @@
     
     <nav class="navbar navbar-expand-lg " id="navbar" >
         <div class="container">
-          <a class="navbar-brand ps-0" href="index.php"><img src="images/home/logo.svg" id="logo" alt=""></a>
+          <a class="navbar-brand ps-0" href="index.php"><img src="<?php base_url('assests/images/home/logo.svg'); ?>" id="logo" alt=""></a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

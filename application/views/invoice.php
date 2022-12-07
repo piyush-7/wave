@@ -1,5 +1,7 @@
 <?php
-include "header.php";
+
+$this->load->view('header');
+
 ?>
       <!-- start banner section main--------------------------------- -->
       <section class=" bg_color1 pt-5">
@@ -12,7 +14,7 @@ include "header.php";
 
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3">
-                <img class=" banner_img " src="images/invoice/invoicebanner.png" alt="">
+                <img class=" banner_img " src="<?php base_url('assests/images/invoice/invoicebanner.png'); ?>" alt="">
             </div>
 
         </div>
@@ -60,9 +62,9 @@ include "header.php";
                 </div>
            </div>
            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3 ">
-            <img src="images/invoice/firesttabimg.webp" class="img-fluid  " id="fiestimg" alt="">
-            <img src="images/invoice/secondimg.webp" class="img-fluid in_img" id="secondimg" alt="">
-            <img src="images/invoice/thirdimg.png" class="img-fluid in_img" id="thirdimg" alt="">
+            <img src="<?php base_url('assests/images/invoice/firesttabimg.webp'); ?>" class="img-fluid  " id="fiestimg" alt="">
+            <img src="<?php base_url('assests/images/invoice/secondimg.webp'); ?>" class="img-fluid in_img" id="secondimg" alt="">
+            <img src="<?php base_url('assests/images/invoice/thirdimg.png'); ?>" class="img-fluid in_img" id="thirdimg" alt="">
 
               
               
@@ -107,7 +109,7 @@ include "header.php";
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-5  textcentermobileimg">
-        <img src="images/invoice/jayauto.png" class="img-fluid" width="70%" alt="">
+        <img src="<?php base_url('assests/images/invoice/jayauto.png'); ?>" class="img-fluid" width="70%" alt="">
       </div>
 
     </div>
@@ -133,7 +135,7 @@ include "header.php";
                 <div class="row align-items-center">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
                         <div class="imgemobilecenter">
-                            <img src="images/invoice/getfaster.webp" class="img-fluid " width="70%" alt="">
+                            <img src="<?php base_url('assests/images/invoice/getfaster.webp'); ?>" class="img-fluid " width="70%" alt="">
                         </div>
                       </div>
                   <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 ">
@@ -191,7 +193,7 @@ include "header.php";
         <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 m-auto">
             <div class=" p-5 upyou_bussiness d-flex justify-content-between align-items-center flex-wrap">
                 <h2 class="heading-style-2 cc-mobile-max-18ch">Button up your business <br> with professional invoices.</h2>
-            <a id="w-node-_78514734-b972-3551-112a-6e4ffff5c2f9-e3a6e23a" href="/pricing" class="button cc-carrot w-button">Tell me more</a>
+            <a id="w-node-_78514734-b972-3551-112a-6e4ffff5c2f9-e3a6e23a" href="#" class="button cc-carrot w-button">Tell me more</a>
             </div>
         </div>
         
@@ -383,5 +385,7 @@ include "header.php";
   </section>
   
  <?php
- include "footer.php";
+ 
+ $this->load->view('footer');
+ 
  ?>
