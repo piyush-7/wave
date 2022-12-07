@@ -1,0 +1,91 @@
+.login_heading{
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: rgb(23, 43, 77);
+    font-size: 1.75rem;
+}
+.inputteg{
+    position: relative;
+}
+.inputteg label{
+    position: absolute;
+    top:-9px;
+    padding: 0 5px;
+    left: 10px;
+    background-color: #fff;
+    font-size: 12px;
+}
+.form_forget_password a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+   
+   
+    
+   
+    cursor: pointer;
+   
+   
+    color: rgb(117, 117, 117);
+
+}
+.gb_login{
+    height: 100vh;
+    background-color:#03192e;
+}
+.h6_heading h6{
+    margin: 20px 0px 0px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 2.75rem;
+}
+.h6_heading p{
+    margin: 20px 0px 0px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 0rem;
+    margin-left: 0%;
+    list-style: none;
+}
+.signup_page{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+/* width */
+.signup_page::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .signup_page::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .signup_page::-webkit-scrollbar-thumb {
+    background: rgb(23, 43, 77);
+  
+  }

@@ -1,0 +1,142 @@
+
+  /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+  @media screen and (max-width: 991px) {
+    #navbar {
+      padding: .5rem !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
+    .container {
+      width: 100%!important;
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+      padding: .5rem;
+     
+    }
+    div.dropdown-menu.show{
+      min-width: 100%;
+    }
+    .show_on_mobild{
+      display: block;
+    }
+    .gb_login{
+      display: none;
+    }
+    .sing_in, .sign_up{
+     
+      margin-left: 0;
+    }
+    #navbar-right {
+      float: none;
+    }
+    .heading,.paragraf{
+      text-align: center;
+    }
+    .create-form-horizontal{
+      margin: auto;
+    }
+    .video_ifram {
+      /* position: static; */
+      width: 87%;
+      margin: auto;
+    }
+    .secrtion_hide{
+      padding: 0;
+    }
+    .everything_height>.container{
+      width: 100%;
+    }
+    .horizontal-list{
+      display: block;
+    }
+    .textcentermobile{
+      text-align: center;
+    }
+    .textcentermobileimg{
+      text-align: center;
+    }
+    .imgemobilecenter{
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .vidio_heading {
+      margin-top: 4rem;
+    }
+    .bg_color {
+      margin-bottom: 10rem;
+    }
+    .cc-google-sso_text{
+      font-size: 12px;
+    }
+   
+    
+  }
+  @media screen and (max-width: 425px) {
+    .vidio_heading {
+      margin-top: 4rem;
+    }
+    .bg_color {
+      margin-bottom: 3rem;
+    }
+    .video_ifram{
+      top:-7rem
+    }
+    .heading{
+      font-size: 3rem;
+    }
+    #fontsize_paragragh {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .tesimonial_border{
+      border-right: none;
+    }
+    .tesimonial_border1{
+      border: none;
+    }
+    .rounded-circle{
+      width: 50%;
+    }
+    .container{
+      width: 100%!important;
+    }
+    .tesimonialbottm_border{
+      display: block;
+      border-color: var(--bluecolor);
+      background-color: var(--bluecolor);
+      opacity: 1;
+    }
+    .first2{
+      border-top: none;
+      border-left: 2px solid var(--bluecolor);
+      border-right: 2px solid var(--bluecolor);
+      border-bottom: none;
+
+    }
+    .first4{
+      border-right: 2px solid var(--bluecolor);
+      /* border-top: 2px solid var(--bluecolor); */
+    }
+    .div_hide_onmobile{
+      display: none;
+    }
+    .do_what_heading{
+      font-size: 1.5rem;
+    }
+    .do_what_you_love img{
+      width: 50%;
+    }
+    .do_what_you_love{
+      text-align: center;
+
+    }
+  }
