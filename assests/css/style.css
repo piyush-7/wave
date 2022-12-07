@@ -82,35 +82,35 @@ a{
     display: flex;
     margin-left: 2rem;
     /* height: 3; */
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.5rem!important;
    
     justify-content: center;
     
     align-items: center;
-    border: 2px solid var(--bluecolor);
+    border: 2px solid var(--bluecolor)!important;
     border-radius: 25px;
     background-color: transparent;
     /* font-family: Averta,sans-serif; */
-    color:var(--bluecolor);
+    color:var(--bluecolor)!important;
     /* line-height: 1.2; */
-    font-weight: 600;
+    font-weight: 600 !important;
     text-align: center;
     text-decoration: none;
     transition: all .3s linear;
 }
  .sign_up {
-    border-color: #2047ce;
-    background-color: #2047ce;
-    color: #f9f4f1;
+    border-color: #2047ce !important;
+    background-color: #2047ce !important;
+    color: #f9f4f1 !important;
 }
 .sign_up:hover{
-    border-color: #2047ce;
-    background-color: #2047ce;
-    color: #f9f4f1;
+    border-color: #2047ce!important;
+    background-color: #2047ce!important;
+    color: #f9f4f1!important;
 }
 .sing_in:hover {
-    border-color: #2047ce;
-    color: #2047ce;
+    border-color: #2047ce!important;
+    color: #2047ce!important;
 }
 
 

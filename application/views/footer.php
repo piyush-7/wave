@@ -6,16 +6,16 @@
       <div class="row text-white res_footer">
           <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
            <div>
-            <img src="<?php base_url('assests/images/home/footer_logo.svg'); ?>" class="img-fluid" alt="">
-            <img src="<?php base_url('assests/images/home/footer_logo.svg') ?>" class="img-fluid" alt="">
+            <img src="assests/images/home/footer_logo.svg" class="img-fluid" alt="">
+            <img src="assests/images/home/footer_logo.svg" class="img-fluid" alt="">
            </div>
            <div class="mt-3">
             <ul class=" list-unstyled d-flex flex-wrep">
-              <li class="nav-item"> <a class="nav-link" href="#"> <img src="<?php base_url('assests/images/home/facebook_icon.svg') ?>" class="img-fluid" alt=""></a></li>
-              <li class="nav-item"> <a class="nav-link" href="#"> <img src="<?php base_url('assests/images/home/twitte.svg') ?>" class="img-fluid" alt=""></a></li>
-              <li class="nav-item"> <a class="nav-link" href="#"> <img src="<?php base_url('assests/images/home/insta.svg'); ?>" class="img-fluid" alt=""></a></li>
-              <li class="nav-item"> <a class="nav-link" href="#"> <img src="<?php base_url('assests/images/home/linkedind.svg'); ?>" class="img-fluid" alt=""></a></li>
-              <li class="nav-item"> <a class="nav-link" href="#"> <img src="<?php base_url('assests/images/home/youtube.svg'); ?>" class="img-fluid" alt=""></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#"> <img src="assests/images/home/facebook_icon.svg" class="img-fluid" alt=""></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#"> <img src="assests/images/home/twitte.svg" class="img-fluid" alt=""></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#"> <img src="assests/images/home/insta.svg" class="img-fluid" alt=""></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#"> <img src="assests/images/home/linkedind.svg" class="img-fluid" alt=""></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#"> <img src="assests/images/home/youtube.svg" class="img-fluid" alt=""></a></li>
               
             </ul>
            </div>
@@ -88,7 +88,7 @@
                 
               </ul>
              </div>
-             <img src="<?php base_url('assests/images/home/footer_last_img.svg'); ?>" class="img-fluid" width="11%" alt="">
+             <img src="assests/images/home/footer_last_img.svg" class="img-fluid" width="11%" alt="">
             </div>
             
        </div>
@@ -96,12 +96,12 @@
        
     </div>
   </section>  
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="<?php base_url('assests/images/home/up-arrow.png'); ?>" alt=""></button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assests/images/home/up-arrow.png" alt=""></button>
 
 
 
-<script src="<?php base_url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'); ?>" 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="<?php base_url('assests/javascrip/index.js'); ?>"></script>
+    <script src="assests/javascrip/index.js"></script>
   </body>
 </html>

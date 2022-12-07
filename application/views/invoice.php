@@ -14,7 +14,7 @@ $this->load->view('header');
 
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3">
-                <img class=" banner_img " src="<?php base_url('assests/images/invoice/invoicebanner.png'); ?>" alt="">
+                <img class=" banner_img " src="assests/images/invoice/invoicebanner.png" alt="">
             </div>
 
         </div>
@@ -61,19 +61,13 @@ $this->load->view('header');
                  
                 </div>
            </div>
-           <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3 ">
-            <img src="<?php base_url('assests/images/invoice/firesttabimg.webp'); ?>" class="img-fluid  " id="fiestimg" alt="">
-            <img src="<?php base_url('assests/images/invoice/secondimg.webp'); ?>" class="img-fluid in_img" id="secondimg" alt="">
-            <img src="<?php base_url('assests/images/invoice/thirdimg.png'); ?>" class="img-fluid in_img" id="thirdimg" alt="">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3 ">
+            <img src="assests/images/invoice/firesttabimg.webp" class="img-fluid  " id="fiestimg" alt="">
+            <img src="assests/images/invoice/secondimg.webp" class="img-fluid in_img" id="secondimg" alt="">
+            <img src="assests/images/invoice/thirdimg.png" class="img-fluid in_img" id="thirdimg" alt="">
 
-              
-              
-      
-                
-          
-          
-          
-           </div>
+            
+          </div>
            
           </div>
              
@@ -109,7 +103,7 @@ $this->load->view('header');
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-5  textcentermobileimg">
-        <img src="<?php base_url('assests/images/invoice/jayauto.png'); ?>" class="img-fluid" width="70%" alt="">
+        <img src="assests/images/invoice/jayauto.png" class="img-fluid" width="70%" alt="">
       </div>
 
     </div>
@@ -135,7 +129,7 @@ $this->load->view('header');
                 <div class="row align-items-center">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
                         <div class="imgemobilecenter">
-                            <img src="<?php base_url('assests/images/invoice/getfaster.webp'); ?>" class="img-fluid " width="70%" alt="">
+                            <img src="assests/images/invoice/getfaster.webp" class="img-fluid " width="70%" alt="">
                         </div>
                       </div>
                   <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 ">
@@ -167,7 +161,7 @@ $this->load->view('header');
           <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 m-auto">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 imgemobilecenter ">
-                    <img src="images/invoice/girl.webp" class="img-fluid rounded-circle" width="100%" alt="">
+                    <img src="assests/images/invoice/girl.webp" class="img-fluid rounded-circle" width="100%" alt="">
                     <hr class="tesimonialbottm_border">
                   </div>
                   <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
@@ -262,7 +256,7 @@ $this->load->view('header');
       <div class="do_what_you_love w-75  w-sm-100 w-md-100 p-3">
         <div class="row align-items-center">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-            <img src="images/invoice/position_centerimg.webp" class="img-fluid" width="80%" alt="">
+            <img src="assests/images/invoice/position_centerimg.webp" class="img-fluid" width="80%" alt="">
           </div>
           <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
             <div class="do_what_heading">Nothing beats that “payment received” feeling.</div>

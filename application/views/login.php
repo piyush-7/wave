@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="assests/images/favicon.png">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style_login.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assests/css/style_login.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/responsive.css">
   
 
   </head>
@@ -25,21 +25,21 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/market_analysis.svg" alt="...">
+                        <img src="assests/images/market_analysis.svg" alt="...">
                         <div class="h6_heading text-white">Focus on the work that matters
                             <h6>Finally a place where it all comes together</h6>
                             <p>Employees like you can even make Mondays a joy. Thanks for your hard work and super attitude.</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="images/designer.svg" alt="...">
+                        <img src="assests/images/designer.svg" alt="...">
                         <div class="h6_heading text-white">
                             <h6>Focus on the work that matters</h6>
                             <p>Business opportunities are like buses, there’s always another one coming.</p>
                         </div>
                       </div>
                       <div class="carousel-item">
-                        <img src="images/LeftImage.svg" alt="...">
+                        <img src="assests/images/LeftImage.svg" alt="...">
                         <div class="h6_heading text-white">
                             <h6>Best Employee Experience Platform</h6>
                             <p>Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. You achieve what you believe.</p>
@@ -52,7 +52,7 @@
             </div>
             <div class="col-12 col-sm-12 col-lg-6 col-xl-4 col-xxl-4  p-5">
                 <div class="text-end">
-                    <img src="images/home/logo.svg" alt="">
+                    <img src="assests/images/home/logo.svg" alt="">
                 </div>
               <div class="py-5">
                 <h6 class="login_heading">Login</h6>
@@ -100,6 +100,6 @@
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="javascrip/index.js"></script>
+    <script src="assests/javascrip/index.js"></script>
   </body>
 </html>

@@ -15,7 +15,7 @@ $this->load->view('header');
 
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-3">
-                <img class=" banner_img " src="images/home/firnt_banner.webp" alt="">
+                <img class=" banner_img " src="assests/images/home/firnt_banner.webp" alt="">
             </div>
 
         </div>
@@ -103,7 +103,7 @@ $this->load->view('header');
           <div id="section1" class="container secrtion_hide pb-5  " >
             <div class="row justify-content-center">
               <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-                <img src="images/home/tab1img.png" class="img-fluid" alt="">
+                <img src="assests/images/home/tab1img.png" class="img-fluid" alt="">
               </div>
               <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
                 <h3 class="tabinside_heading pb-3">Invoicing</h3>
@@ -125,7 +125,7 @@ $this->load->view('header');
           <div id="section2" class="container secrtion_hide pb-5  " >
             <div class="row justify-content-center">
               <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-                <img src="images/home/tab2img.png" class="img-fluid" alt="">
+                <img src="assests/images/home/tab2img.png" class="img-fluid" alt="">
               </div>
               <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
                 <h3 class="tabinside_heading pb-3">Payments</h3>
@@ -148,7 +148,7 @@ $this->load->view('header');
     <div id="section3" class="container secrtion_hide pb-5  " >
       <div class="row justify-content-center">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-          <img src="images/home/tab3img.png" class="img-fluid" alt="">
+          <img src="assests/images/home/tab3img.png" class="img-fluid" alt="">
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
           <h3 class="tabinside_heading pb-3">Accounting</h3>
@@ -169,7 +169,7 @@ $this->load->view('header');
     <div id="section4" class="container secrtion_hide pb-5  " >
       <div class="row justify-content-center">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-          <img src="images/home/tab4img.webp" class="img-fluid" alt="">
+          <img src="assests/images/home/tab4img.webp" class="img-fluid" alt="">
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
           <h3 class="tabinside_heading pb-3">Banking</h3>
@@ -190,7 +190,7 @@ $this->load->view('header');
     <div id="section6" class="container secrtion_hide pb-5  " >
       <div class="row justify-content-center">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-          <img src="images/home/tab6img.webp" class="img-fluid" alt="">
+          <img src="assests/images/home/tab6img.webp" class="img-fluid" alt="">
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
           <h3 class="tabinside_heading pb-3">Advisors</h3>
@@ -215,13 +215,13 @@ $this->load->view('header');
     <div id="section5" class="container   pb-5 " >
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
-          <img src="images/home/tab4img.png" class="img-fluid" alt="">
+          <img src="assests/images/home/tab4img.png" class="img-fluid" alt="">
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3">
           <h3 class="tabinside_heading pb-3">Payroll</h3>
           <div class="tabinside_heading_div pb-3">Pay your staff, and yourself, in minutes</div>
           <p class="text-style-body">Didn't go to school for payroll? No worries. We built our Payroll tool for small business owners, so it’s easy to use AND teaches you as you go.</p>
-          <a href="/invoicing" class="read-link d-flex justify-content-start  my-5 ">
+          <a href="#" class="read-link d-flex justify-content-start  my-5 ">
             <div class="pe-3" >Learn more about Payroll</div>
             <div >
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -264,13 +264,13 @@ $this->load->view('header');
         </div>
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3  p-2 p-md-2 p-lg-5 p-xl-5 p-xxl-5  first2 ">
           <div class="text-style-eyebrow pra pb-4">Freelancers</div>
-          <img src="images/home/bult1.webp" class="img-fluid" alt="">
+          <img src="assests/images/home/bult1.webp" class="img-fluid" alt="">
           <div class="text-style-body pt-3">Create and send professional invoices in minutes.</div>
         </div>
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3  p-2 p-md-2 p-lg-5 p-xl-5 p-xxl-5 first3 ">
           <div class="text-style-eyebrow pra">SELF-EMPLOYED ENTREPRENEURS
           </div>
-          <img src="images/home/bult2.webp" class="img-fluid" alt="">
+          <img src="assests/images/home/bult2.webp" class="img-fluid" alt="">
           <div class="text-style-body pt-3">Pay your staff (and yourself!) with confidence.</div>
         </div>
         <div class="w-100"></div>
@@ -279,14 +279,14 @@ $this->load->view('header');
         </div>
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3  p-2 p-md-2 p-lg-5 p-xl-5 p-xxl-5 first4 ">
           <div class="text-style-eyebrow pra">CONSULTANTS</div>
-          <img src="images/home/bult3.webp" class="img-fluid" alt="">
+          <img src="assets/images/home/bult3.webp" class="img-fluid" alt="">
           <div class="text-style-body pt-3">Set up recurring invoices and payments for retainer clients.
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 p-md-2 p-lg-5 p-xl-5 p-xxl-5 first5 ">
           <div class="text-style-eyebrow pra">CONTRACTORS
           </div>
-          <img src="images/home/bult4.webp" class="img-fluid" alt="">
+          <img src="assests/images/home/bult4.webp" class="img-fluid" alt="">
           <div class="text-style-body pt-3">Track your business expenses with our free accounting tools.
             
           </div>

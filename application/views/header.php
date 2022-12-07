@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="icon" type="image/x-icon" href="<?php base_url('assests/images/favicon.png'); ?>">
-    <script src="<?php base_url('https://kit.fontawesome.com/yourcode.js'); ?>" crossorigin="anonymous"></script>
-    <link href="<?php base_url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'); ?>" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php base_url('assests/css/style.css'); ?>">
-    <link rel="stylesheet" href="<?php base_url('assests/css/responsive.css'); ?>">
+    <link rel="icon" type="image/x-icon" href="assests/images/favicon.png">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/responsive.css">
 
   </head>
   <body >
@@ -17,7 +17,7 @@
     
     <nav class="navbar navbar-expand-lg " id="navbar" >
         <div class="container">
-          <a class="navbar-brand ps-0" href="index.php"><img src="<?php base_url('assests/images/home/logo.svg'); ?>" id="logo" alt=""></a>
+          <a class="navbar-brand ps-0" href="index.php"><img src="assests/images/home/logo.svg" id="logo" alt=""></a>
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,7 +34,7 @@
                   <div class="container">
                     <div class="row">
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 drop_menu_link">
-                       <a href="invoice.php">
+                       <a href="<?php echo base_url();?>invoice">
                         <strong>Invoicing</strong><br>
                        <small>Create and send professional invoices</small>
                        </a>
@@ -42,7 +42,7 @@
                       </div>
                       
                       <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 drop_menu_link">
-                        <a href="invoice.php">
+                        <a href="">
                           <strong>Banking</strong><br>
                          <small>Banking with built-in bookkeeping</small>
                          </a>
@@ -81,9 +81,6 @@
                   
                 </div>
 
-
-
-               
               </li>
               
               <li class="nav-item">
@@ -109,9 +106,12 @@
             </ul>
             <div class="d-flex justify-content-between border-0">
               
-              <button class="btn sing_in" id="padding_scroll" onclick="document.location='login.php'"type="submit">Sign in</button>
+              <a href="<?php echo base_url();?>login" class=" sing_in" id="padding_scroll" type="submit">Sign in</a>
 
-              <button class="btn sign_up " onclick="document.location='signup.php'" type="submit">Sign up for free</button>
+
+              <a href="<?php echo base_url();?>signup" class=" sign_up" id="padding_scroll" type="submit">Sign up for free</a>
+
+
             </div>
           </div>
         </div>
