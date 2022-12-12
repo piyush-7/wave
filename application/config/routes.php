@@ -7,5 +7,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['home'] = 'Wave_controller/index';
 $route['login'] = 'Wave_controller/login';
-$route['signup'] = 'Wave_controller/signup';
+$route['signup'] = 'Wave_controller/sign_up';
 $route['invoice'] = 'Wave_controller/invoice';

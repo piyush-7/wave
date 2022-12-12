@@ -209,9 +209,6 @@ $this->load->view('header');
     </div>
     
     
-    
-    
-    
     <div id="section5" class="container   pb-5 " >
       <div class="row justify-content-center align-items-center">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mb-3 ">
